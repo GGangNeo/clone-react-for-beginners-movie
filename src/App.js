@@ -1,5 +1,14 @@
+import style from './App.module.css';
+import Button from './Button';
+
 function App() {
-  return <h3> Hello</h3>;
+  return (
+    <div className={style.title}>
+      <h3> Wellcome</h3>
+      <Button text={'welcome'} />
+      <Button text="Hi" />
+    </div>
+  );
 }
 
 export default App;
